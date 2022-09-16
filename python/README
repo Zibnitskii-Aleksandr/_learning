@@ -6,7 +6,7 @@
 Решение должно сохраняться, и вы должны дальше с ним работать. Например есть два числа 5,25 и +, то будет 30, и дальше -
 я ввожу 10 и отнимаю его и так далее.
 
-02. Even-or-Odd.py	: Even or Odd number check
+02. even-or-odd.py	: Even or Odd number check
 Постановка задачи	: Пользователь вводит число, если оно четное вывесть - “Even” если нет - “Odd”
 
 03. Fibonachi.py	: Fibonacci sequence calculation
