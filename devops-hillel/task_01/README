@@ -1,0 +1,28 @@
+ Домашнее задание 1
+Добавлено: 13.11.2019 12:11
+First deployment
+
+https://github.com/spring-projects/spring-petclinic try this or any other sample JAVA application
+
+Create a multistage Dockerfile:
+
+
+    First section should build a .jar artifact with maven
+    Second section should take this artifact and create an image which will run the application with JAVA as the init (1) process
+
+Create a docker-compose.yaml file:
+
+
+    It should take the product of the second build stage as a java-runner container and run 1 replica of it
+    It should create a mysql db container with 1 replica
+    Connect them via user-defined network
+
+You play with it as you wish
+
+Deadline: Mo, 11/18
+
+
+Acceptance criteria:
+
+    The task is completed adhering to task definition;
+    Apply a screenshot of working application and a link to your github repo with the task

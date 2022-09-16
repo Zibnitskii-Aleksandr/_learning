@@ -1,0 +1,9 @@
+[servers_test]
+ubuntu-test ansible_host= <<< ip-address >>>
+
+[servers_prod]
+ubuntu-prod ansible_host= <<< ip-address >>>
+
+[servers_all:children]
+servers_test
+servers_prod
