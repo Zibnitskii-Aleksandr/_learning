@@ -1,4 +1,3 @@
-#
 # Author        : Zibnitskii Aleksandr
 # Date          : 05/05/2020
 # Description   : Compare two numbers
