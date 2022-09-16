@@ -1,9 +1,7 @@
-#
 # Author        : Zibnitskii Aleksandr
 # Date          : 11/04/2020
 # Description   : Even or Odd number check
 # Task          : Пользователь вводит число, если оно четное вывесть - “Even” если нет - “Odd”
-#
 
 num = 0
 
