@@ -3,6 +3,7 @@
 # Description   : Calculation of a mathematical formula
 # Task          : Пользователь вводит 3 числа, подставить и посчитать формулу:
 #                 2a - 8b / (a-b+c). Вывести результат.
+
 import sys
 
 num_data = []
@@ -25,8 +26,6 @@ while my_var !="***":
         elif my_var.isnumeric() == False:
             print("Неверный ввод - принимаются только числа!")
             continue
-
-
         else:
             num_data.append(int(my_var))
             my_var = " "
